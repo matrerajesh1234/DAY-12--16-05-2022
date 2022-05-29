@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecter</title>
+    <style>
+        .main li ul li {
+            display: none;
+        }
+
+        .main li:hover ul li {
+            display: block;
+        }
+        .main li:hover ul li ul li{
+            display:none;
+        }
+        .main li ul li:hover ul li{
+            display:block;
+        }
+        .main li ul li:hover ul li ul li{
+            display:none;
+        }
+        .main li ul li ul li:hover ul li{
+            display:block;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <ul class="main">
+        <li>Google
+            <ul>
+                <li>Gmail
+                <ul>
+                    <li>SignUp</li>
+                    <li>Signin
+                        <ul>
+                            <li>Sign As Admin</li>
+                            <li>sign As Student</li>
+                        </ul>
+                </ul>
+            </ul>
+        </li>
+
+        <li>Facebook</li>
+        <li>Amazon</li>
+        <li>Flipkart</li>
+
+    </ul>
+
+
+
+</body>
+
+</html>
